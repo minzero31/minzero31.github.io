@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "김민영"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/20210407_184255.jpg"
   bio              : "동탄중앙고 2학년"
   location         : "대한민국, 서울"
   email            : "77minyoung77@gmail.com"
