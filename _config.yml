@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko"
-title                    : "파이썬 프로그래밍"
+title                    : "HW/SW 프로젝트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김민영"
-description              : "인공지능과 빅데이터르 위한 파이썬 학습하기"
+description              : "인공지능과 빅데이터를 위한 파이썬 학습하기"
 url                      : "https://minzero31.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "김민영"
   avatar           : "/assets/images/20210407_184255.jpg"
-  bio              : "동탄중앙고 2학년"
+  bio              : "숙명여자대학교 인공지능공학부"
   location         : "대한민국, 서울"
   email            : "77minyoung77@gmail.com"
   links:
