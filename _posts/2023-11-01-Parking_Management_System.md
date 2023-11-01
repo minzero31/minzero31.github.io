@@ -9,7 +9,7 @@ title: "아두이노와 파이썬 OpenCV를 활용한 주차 관리 시스템 �
 
 [관련 이미지]
 
-![image](/assets/images/qrrecog1.png)
+
 
 [개발 목적]
 
