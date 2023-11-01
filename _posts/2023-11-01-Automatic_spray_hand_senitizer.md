@@ -32,43 +32,5 @@ title: "자동분사 손소독제 개발 프로젝트"
 - Liquid Crystal 라이브러리
   
 소스코드
-~~~ C
 
-#include <DHT.h>
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-#define DHTPIN 7
-#define DHTTYPE DHT11
-
-LiquidCrystal_I2C lcd(0x27, 16,2);
-DHT dht(DHTPIN, DHTTYPE);
-void setup()
-{
-  lcd.init()
-  Serial.begin(9600);
-  dht.begin();
-}
-void loop() {
-  int h = 54;
-  int t = 26;
-
-  Serial.print("humidity: ");
-  Serial.print(h);
-  Serial.println(" %");
-  Serial.print("temperature : ");
-  Serial.print(t);
-  Serial.println(" 도");
-
-  lcd.backlight();
-  lcd.displat();
-  lcd.print("TEMP:           ");
-  lcd.print(t);
-  lcd.setCursor(0,1);
-  lcd.print("HUMIDITY:       ");
-  lcd.print(h);
-  delay(1000);
-}
-  
-
-   
-~~~
+<script src="https://gist.github.com/minzero31/ac96980117f96b533d8d25c011ff0b08.js"></script>
