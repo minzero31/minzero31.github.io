@@ -24,10 +24,10 @@ title: "미니 IoT 스마트홈 프로젝트"
 - 블루투스 모듈과 스텝모터를 이용해 nordic Toolbox 앱에서 원격으로 가스밸브를 잠그고 열 수 있도록 구현함.
   
 ![image](/assets/images/smarthome1.JPG)
-![image](/assets/images/smarthome2.JPG)
-![image](/assets/images/smarthome3.JPG)
-![image](/assets/images/smarthome4.JPG)
-![image](/assets/images/smarthome5.JPG)
+![image](/assets/images/smarthome2.png)
+![image](/assets/images/smarthome3.png)
+![image](/assets/images/smarthome4.png)
+![image](/assets/images/smarthome5.png)
 
 [소프트웨어 코드]
 
