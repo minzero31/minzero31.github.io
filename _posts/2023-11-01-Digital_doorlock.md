@@ -26,6 +26,9 @@ title: "디지털 도어락 제작 프로젝트"
 - Servo 라이브러리 : 서보모터 사용을 위한 라이브러리.
   
 소스코드
+
+<script src="https://gist.github.com/minzero31/6b60325c2abdb4d468dbabc7e7943ed7.js"></script>
+
 ~~~ arduino
 
 #include <SPI.h>  // SPI 통신을 사용하기 위한 라이브러리 헤더파일
