@@ -33,8 +33,31 @@ LiquidCrystal_I2C lcd(0x27, 16,2);
 DHT dht(DHTPIN, DHTTYPE);
 void setup()
 {
-    lcd.init()
-    Serial.begin(9600);
-    dht.begin();
+  lcd.init()
+  Serial.begin(9600);
+  dht.begin();
 }
+void loop() {
+  int h = 54;
+  int t = 26;
+
+  Serial.print("humidity: ");
+  Serial.print(h);
+  Serial.println(" %");
+  Serial.print("temperature : ");
+  Serial.print(t);
+  Serial.println(" 도");
+
+  lcd.backlight();
+  lcd.displat();
+  lcd.print("TEMP:           ");
+  lcd.print(t);
+  lcd.setCursor(0,1);
+  lcd.print("HUMIDITY:       ");
+  lcd.print(h);
+  delay(1000);
+}
+  
+
+   
 ~~~
