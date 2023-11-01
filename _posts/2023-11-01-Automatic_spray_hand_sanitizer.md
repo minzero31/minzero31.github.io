@@ -21,7 +21,7 @@ title: "자동분사 손소독제 개발 프로젝트"
 - Liquid Crystal 라이브러리
   
 소스코드
-~~~ arduino
+~~~ C
 
 #include <DHT.h>
 #include <Wire.h>
@@ -61,5 +61,3 @@ void loop() {
 
    
 ~~~
-
----
