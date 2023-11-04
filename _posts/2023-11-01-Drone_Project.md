@@ -19,12 +19,17 @@ title: "드론 택배 프로젝트"
 
 [소프트웨어 코드]
 
-1. 최단거리이동 기능
-2. 장애물 피하기 기능(키보드 조종 기능)
-3. 표지판 인식 후 동작 기능
+1. 텔로드론 코딩을 위한 djitello 라이브러리 사용
+2. 텔로드론 조종 메인 함수
+3. 최단거리이동 기능
+4. 장애물 피하기 기능(키보드 조종 기능)
+5. 표지판 인식 후 동작 기능
+
   
 소스코드
 
+<djitello 라이브러리>
 https://github.com/minzero31/minzero31.github.io/tree/c3277b5e56898edaa461e57d39fde0c902b50693/Projects/djitellopy
+
 
 
