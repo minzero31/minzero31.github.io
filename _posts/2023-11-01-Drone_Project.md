@@ -24,3 +24,7 @@ title: "드론 택배 프로젝트"
 3. 표지판 인식 후 동작 기능
   
 소스코드
+
+https://github.com/minzero31/minzero31.github.io/tree/c3277b5e56898edaa461e57d39fde0c902b50693/Projects/djitellopy
+
+
