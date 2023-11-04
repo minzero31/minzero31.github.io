@@ -75,8 +75,8 @@ src="https://gist.github.com/minzero31/b22d2725d8b0f61c11fe576ba70801ee.js"></sc
 
 
 [참고 자료]
-Teachable Machine 활용하기 (<https://doljokilab.tistory.com/27>)
-다익스트라 알고리즘 (<https://brownbears.tistory.com/554>)
+Teachable Machine 활용하기 (<https://doljokilab.tistory.com/27>)  
+다익스트라 알고리즘 (<https://brownbears.tistory.com/554>)  
 Drone Programming with Python Course (<https://www.youtube.com/watch?v=LmEcyQnfpDA&t=6566s>) 
 
 
