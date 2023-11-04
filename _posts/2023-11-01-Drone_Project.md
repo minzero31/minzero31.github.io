@@ -28,12 +28,11 @@ title: "드론 택배 프로젝트"
   
 **소스코드**
 
-**djitello 라이브러리**
+**djitellopy 라이브러리**
 - 텔로드론 사용을 위한 라이브러리
 - 텔로드론에 대한 내장 변수, 함수에 대한 정의들을 확인 할 수 있음.
 
-[djitello.py 라이브러리](https://github.com/minzero31/minzero31.github.io/tree/e7feca0cdb98c1235eafab7137798a67a7073220/Projects/djitellopy
-)
+[djitellopy 라이브러리](https://drive.google.com/drive/folders/1RXL1tzwaGRMX5EyVOPvvbALTX1poayOK?usp=drive_link)
 
 1. TelloMain.py
 - 텔로드론 조종을 위한 메인 함수
