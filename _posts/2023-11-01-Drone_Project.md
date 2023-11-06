@@ -40,7 +40,7 @@ title: "드론 택배 프로젝트"
 **TelloMain.py**
 <script src="https://gist.github.com/minzero31/8322e36dc6499d11c991668661af012b.js"></script>
 
-2. 최단거리이동 기능 구현
+2.  최단거리이동 기능 구현
 - 다익스트라 알고리즘 활용
 - 사전에 제작한 드론 지도를 기반으로 정보를 넣어서 최단거리를 계산함.
 - 출발지와 도착지를 선택하면 그에 따른 최단 경로로 드론이 이동할 수 있음.
@@ -73,7 +73,8 @@ src="https://gist.github.com/minzero31/b22d2725d8b0f61c11fe576ba70801ee.js"></sc
 <script src="https://gist.github.com/minzero31/c017d3bf74190b638386b2a5edb97670.js"></script>
 
 
-[참고 자료]
+[참고 자료]  
+
 Teachable Machine 활용하기 (<https://doljokilab.tistory.com/27>)  
 다익스트라 알고리즘 (<https://brownbears.tistory.com/554>)  
 Drone Programming with Python Course (<https://www.youtube.com/watch?v=LmEcyQnfpDA&t=6566s>) 
