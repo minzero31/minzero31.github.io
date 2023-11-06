@@ -13,9 +13,20 @@ title: "드론 택배 프로젝트"
   
 **드론 비행 환경**
 - 드론 비행 지도 제작
+
+![image](/assets/images/drone1.JPG)
+![image](/assets/images/drone2.JPG)
+![image](/assets/images/drone5.JPG)
+
 - 장애물 제작
+
+![image](/assets/images/drone7.JPG)
+
 - 표지판 제작
 
+![image](/assets/images/drone4.JPG)
+
+![image](/assets/images/drone3.JPG)
 
 [소프트웨어 코드]
 
