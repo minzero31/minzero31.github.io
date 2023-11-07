@@ -14,9 +14,9 @@ title: "드론 택배 프로젝트"
 **드론 비행 환경**
 - 드론 비행 지도 제작
 
-![image](/assets/images/drone1.JPG width="100" height="100")
+![image](/assets/images/drone1.JPG){: width="40%" height="40%"}
 
-![image](/assets/images/drone2.JPG width="100" height="100")
+![image](/assets/images/drone2.JPG){: width="40%" height="40%"}
 
 ![image](/assets/images/drone5.JPG)
 
