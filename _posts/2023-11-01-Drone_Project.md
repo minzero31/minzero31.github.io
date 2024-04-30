@@ -19,7 +19,7 @@ title: "드론 택배 프로젝트"
 - 각 경로 사이의 각도 측정 및 표시
 
   
-![image](/assets/images/drone5.JPG)
+![image](/assets/images/drone5.JPG){: width="400px" height="400px"}
 
 - 장애물 제작
 
