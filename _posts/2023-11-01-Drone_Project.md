@@ -12,12 +12,13 @@ title: "드론 택배 프로젝트"
 - 텔로드론
   
 **드론 비행 환경**
-- 드론 비행 지도 제작
+- 드론 비행 지도 제작(각 지점 간의 거리 표시)
 
-![image](/assets/images/drone1.JPG){: width="300px" height="300px"}
+![image](/assets/images/drone1.JPG){: width="300px" height="300px"}, ![image](/assets/images/drone2.JPG){: width="300px" height="300px"}
 
-![image](/assets/images/drone2.JPG){: width="300px" height="300px"}
+- 각 경로 사이의 각도 측정 및 표시
 
+  
 ![image](/assets/images/drone5.JPG)
 
 - 장애물 제작
