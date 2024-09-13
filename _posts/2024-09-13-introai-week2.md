@@ -270,7 +270,8 @@ title: "인공지능입문 2주차 수업 정리"
     1. **LIFO(Last In, First Out)**: 가장 마지막에 들어간 데이터가 가장 먼저 빠져나가는 구조
     2. 데이터를 넣는 것을 `push`, 빼내는 것을 `pop`이라고 부름
     3. 파이썬의 스택 구조는 기본적으로 단순 리스트만 활용하여 구현이 가능함
-    
+    ![image](https://github.com/user-attachments/assets/75442ef0-96ad-4ba3-aac0-a1e4a32ad03b)
+
     ```python
     stack = []
     
@@ -323,7 +324,9 @@ title: "인공지능입문 2주차 수업 정리"
     1. **FIFO(First In, First Out)**: 가장 먼저 들어간 데이터가 가장 먼저 빠져나가는 구조
     2. 큐에 자료를 넣는 것을 `enqueue`, 빼내는 것은 `dequeue`라고 부름
     3. 파이썬에서는 `deque` (double-ended queue: 큐 앞뒤 삽입/삭제 가능)를 사용
-        
+       ![image](https://github.com/user-attachments/assets/a149bc27-823d-44aa-824c-b3f66c20df73)
+
+  
     ```python
     from collections import deque
     
