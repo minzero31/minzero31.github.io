@@ -32,6 +32,8 @@ title: "인공지능입문 2주차 수업 정리"
     - 라이다, 레이더, 카메라, GPS 등의 센서를 사용하여 주변 환경을 인식하고 동작을 결정합니다.
   - **에이전트 함수**: 임의의 지각열을 하나의 동작으로 연결하는 수학적 개념입니다.
     - 일반적으로 추상적이고 수학적으로 묘사됩니다. 하지만 테이블 형태로 묘사할 수도 있습니다.
+      ![image](https://github.com/user-attachments/assets/7072dcbb-6d7c-4ca2-aed1-70447c2aef73)
+
     - **에이전트 프로그램**: 에이전트 함수는 물리적 시스템에서 동작하는 구체적인 구현을 의미합니다.
 
 ## Page 7: 합리적 에이전트와 좋은 행동
@@ -109,11 +111,13 @@ title: "인공지능입문 2주차 수업 정리"
 
 ### 3. 택시 기사의 예시
 
-![택시 기사 예시](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e0fcb96-cbd0-499f-add8-257d38028f67/9643a0b4-eec2-4271-a869-105cc3a81aad/image.png)
+![image](https://github.com/user-attachments/assets/8561a2dd-3eb8-4118-bce9-e73ef6a54e49)
+
 
 ### 4. 기타 예시
 
-![기타 예시](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e0fcb96-cbd0-499f-add8-257d38028f67/edde1692-4435-4655-887a-f27e73f98f62/image.png)
+![image](https://github.com/user-attachments/assets/fe97cdd5-29a5-429f-9a59-d07864731604)
+
 
 ## Page 12~15: 과제 환경의 속성(Properties)
 
