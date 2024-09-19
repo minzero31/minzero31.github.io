@@ -28,7 +28,9 @@ title: "인공지능입문 3주차 수업 정리"
     - 구조가 비교적 단순한 데이터를 대상으로 하는 탐색 기법
         - 예) 순차, 이진 탐색 등
             → 배열처럼 비교적 단순한 자료구조에서 탐색을 수행함.
-            → 예) 학생의 이름과 학점이 적힌 정보들을 찾고자 할 때
+              → 예) 학생의 이름과 학점이 적힌 정보들을 찾고자 할 때
+          ![image](https://github.com/user-attachments/assets/b3b1370d-558e-4232-a86b-bc5ce64a9427)
+
 
 ### Page 5 : 무작위 탐색(Random Search)
 
@@ -39,6 +41,8 @@ title: "인공지능입문 3주차 수업 정리"
     - 운이 좋을 경우 원하는 정보를 적은 횟수 안에 찾을 수 있음.
 3. **무작위 탐색의 단점**
     - 지능적인 탐색은 아니기에 원하는 정보를 찾는데 오히려 시간이 더 소요될 수 있음.
+      ![image](https://github.com/user-attachments/assets/e64eee39-6447-428d-9c41-b8fae7aceae3)
+
 
 ### Page 6 : 순차 탐색(Sequential or Linear Search)
 
@@ -49,6 +53,8 @@ title: "인공지능입문 3주차 수업 정리"
     - 정보들을 차례대로 배열 → 탐색
     - 이름 순서대로 정보들을 정렬 → 탐색
         → 어떠한 기준대로 정렬이 된 것이기에 보다 효율적으로 가능하다.
+      ![image](https://github.com/user-attachments/assets/22127d1c-ffd0-4d3b-8e0b-a560a06f9e83)
+
 
 ### Page 7 : 이진 탐색(Binary Search)
 
@@ -66,6 +72,7 @@ title: "인공지능입문 3주차 수업 정리"
 3. **이진탐색의 장점**
     1. 탐색 횟수를 많이 줄일 수 있음.
     2. 다른 순차 탐색이나 무작위 탐색보다 훨씬 효율적임.
+![image](https://github.com/user-attachments/assets/1298aa97-073d-4864-b660-e7f9d98e5a81)
 
 ---
 
@@ -76,6 +83,8 @@ title: "인공지능입문 3주차 수업 정리"
 1. **인공지능 에이전트에서의 탐색 알고리즘의 활용**
     1. 일반적으로 문제 풀이 상황에서 탐색 알고리즘을 활용한다.
         1. 문제 풀이 상황: 미로찾기, 길찾기, 틱택토, 체스, 바둑 등 복잡한 상태를 해결하는 상황
+        ![image](https://github.com/user-attachments/assets/e03a919b-907f-48c1-958d-ec7693969e1d)
+
 
 2. **문제 해결 에이전트 (Problem-solving Agent)**
     1. 문제 풀이 상황처럼 쉽게 목표를 달성할 수 없는 상황에서
@@ -107,6 +116,8 @@ title: "인공지능입문 3주차 수업 정리"
     - 목표는 단일이거나 여러 개의 목표 집합이 될 수 있음.
 5. **연산자 (Operator)**: 에이전트가 하는 액션, 동작
     - 에이전트가 어떤 행동을 했을 때 매번 다음 상태가 변화하므로 연산자라고 불림.
+      ![image](https://github.com/user-attachments/assets/6a21e24c-9db1-47f9-bb40-63f3eeaaacd7)
+
 
 ---
 
@@ -135,6 +146,8 @@ title: "인공지능입문 3주차 수업 정리"
     4. **전이 모형(Transition Model)**: 3가지 에이전트의 동작들은 예상되는 효과를 가짐
         - 단, 왼쪽 끝에서 다시 왼쪽으로 이동하거나, 오른쪽 끝에서 또 다시 오른쪽으로 이동하거나, 이미 깨끗한 칸을 흡입하는 경우 → 아무런 효과가 없음 → 이에 대한 전이 모형이 필요함.
     5. **목표 상태(Goal State)**: 모든 칸이 깨끗한지 확인하기
+   ![image](https://github.com/user-attachments/assets/83a5bc38-c6c0-4ab3-9297-10f6174a9b9a)
+
 
 ---
 
@@ -146,6 +159,12 @@ title: "인공지능입문 3주차 수업 정리"
         - 8-Puzzle에서의 동작은 ***빈칸을 어디로 보내느냐*** 의 의미를 가짐.
     4. **전이 모형(Transition Model)**: 초기 상태에서 동작이 적용되면 결과 상태에서 타일 위치가 바뀜.
     5. **목표 상태(Goal State)**: 현재 상태가 목표 구성과 일치하는지 확인.
+   ![image](https://github.com/user-attachments/assets/47f5fd11-56cf-45df-807f-6a08060e0a46)
+        → 9칸을 좌표로 표현하면 (0,0)부터 (2,2)까지 생기게 된다.
+        → 좌표를 토대로 리스트를 만들어서 정렬할 수도 있음.
+       ![image](https://github.com/user-attachments/assets/e4791aef-d625-4dc7-bcb1-276ce87bb74f)
+
+
 
 ---
 
@@ -159,6 +178,12 @@ title: "인공지능입문 3주차 수업 정리"
     4. **전이 모형(Transition Model)**: 동작이 기대되는 효과를 가짐.
         - ex) 에이전트가 현 위치에서 왼쪽으로 이동 → 해당 위치로 이동, 벽이 있으면 해당 동작은 무효.
     5. **목표 상태(Goal State)**: 미로 내 특정 위치(목표 지점)에 도달하는 것.
+       ![image](https://github.com/user-attachments/assets/c979c0ad-c756-44f6-b082-506a96784456)
+       ![image](https://github.com/user-attachments/assets/846a0c06-0315-4d87-bccb-6797c2eb4ee6)
+       → 모든 분기들을 나열하면 다음과 같다.
+       → 이 중에서 가장 깊이가 짧은 것을 선택하면 가장 효율적인 탐색이 된다.
+
+
 
 ---
 
@@ -170,7 +195,9 @@ title: "인공지능입문 3주차 수업 정리"
 - **트리(Tree)**:
     - 그래프의 일종으로 비순환적(acrylic)이고, 방향성(directed)이 있음.
 - **그래프(Graph)**:
-    - 복잡한 문제를 표현하는 데에 사용됨.
+      ![image](https://github.com/user-attachments/assets/fbd4eeb7-45e1-43cd-9333-fc9ac0f9fa4a)
+      → 왼쪽은 그래프, 오른쪽이 트리 구조이다. 
+
     
 ---
 
@@ -212,6 +239,9 @@ title: "인공지능입문 3주차 수업 정리"
 
 → 문제를 빠르고 효율적으로 해결하기 위해.
 
+![image](https://github.com/user-attachments/assets/9f1ed3bc-9d39-4c43-be95-db4827d5441f)
+
+
 
 ### 3주차 실습 - 그래프와 트리
 
@@ -223,6 +253,8 @@ title: "인공지능입문 3주차 수업 정리"
 
 2. 인접 행렬과 인접 리스트
     1. 그래프는 인접 행렬 혹은 인접리스트로 표현할 수 있음
+       ![image](https://github.com/user-attachments/assets/07557117-7a6b-4ddb-b4aa-619ebd82ada9)
+
     → 순서대로 그래프, 인접 행렬, 인접리스트
         
         ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e0fcb96-cbd0-499f-add8-257d38028f67/494b7dc3-71cb-4920-88ce-3bc4b57e9dfd/image.png)
@@ -319,7 +351,8 @@ title: "인공지능입문 3주차 수업 정리"
         - 이웃관계(Neighbor) : 같은 레벨에 있지만 다른 부모로부터 나온 노드
         - 깊이(level) : 루트노드가 0, 아래로 갈 수록 증가한다.
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e0fcb96-cbd0-499f-add8-257d38028f67/9ca515f9-18f1-438c-8429-eb6ba811067c/image.png)
+        ![image](https://github.com/user-attachments/assets/725959d6-80fc-41bf-bbd0-7b2ab8df7ac7)
+
         
     ```python
     # 트리 구조:
